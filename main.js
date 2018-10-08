@@ -15,7 +15,7 @@ function run() {
     let durationPerSeason = [];
     let totalTime;
 
-    // calc duration per season
+    // duration per season
     for (let i = 0; i < durations.length; i++) {
         durationPerSeason.push(durations[i].reduce((a, b) => a + b, 0));
     }
