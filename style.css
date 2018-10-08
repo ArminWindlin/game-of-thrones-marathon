@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.day-container {
+    border: 1px solid black;
+    margin: 10px auto;
+    height: 50px;
+    width: 720px;
+    display: flex;
+}
+
+.episode {
+    display: inline-block;
+    border-left: 1px solid black;
+    height: 50px;
+    background-color: green;
+    margin: 0;
+}
+
+.sleep {
+    display: inline-block;
+    height: 50px;
+    background-color: lightgray;
+    margin: 0;
+    width: 100%;
+}
