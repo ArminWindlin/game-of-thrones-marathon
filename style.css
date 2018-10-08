@@ -1,7 +1,26 @@
 body {
     font-family: Verdana, Arial, sans-serif;
     text-align: center;
-    margin-top: 20px;
+    background: url('res/thumb-1920-502329.jpg');
+    background-size: cover;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.font-shadow {
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+#got {
+    height: 160px;
+    width: 600px;
+    margin: 0 auto;
+    background-image: url('res/bdacce1c110c0bae416c2fca92fc26ad.png');
+    background-size: contain;
+
 }
 
 .day-container {
@@ -10,6 +29,9 @@ body {
     height: 50px;
     width: 720px;
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 25px;
 }
 
 .episode {
@@ -26,4 +48,13 @@ body {
     background-color: lightgray;
     margin: 0;
     width: 100%;
+}
+
+#totals {
+    color: lightgray;
+    text-shadow: 1px 1px 10px #000, 1px 1px 10px #000;
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    font-weight: bold;
+    text-align: left;
 }
